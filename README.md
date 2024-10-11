@@ -57,8 +57,8 @@ pip install -r requirements.txt
 Clone this repository to your local machine or download the project files.
 
 ```bash
-git clone https://github.com/your-repo/road_sign_detection.git
-cd road_sign_detection
+git clone https://github.com/Siddharth-magesh/Object-Detection.git
+cd Object-Detection
 ```
 
 ### Step 2: Set up `config.py`

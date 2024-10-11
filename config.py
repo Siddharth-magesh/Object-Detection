@@ -1,12 +1,12 @@
-Model_Path = r'D:\Object-Detection\models\best.pt'
-Model_Name = 'yolov8s.pt'
-Yaml_Path = 'data.yaml'
-Use_image = True
-Use_video = False
-Image_Path = r'D:\Object-Detection\example\4.jpg'
-Video_Path = r'D:\Object-Detection\example\8.mp4'
-Destination_Path = r'outputs'
-class_names = [
+Model_Path = r'D:\Object-Detection\models\best.pt'   # Path to your trained model
+Model_Name = 'yolov8s.pt'                            # Name of the YOLO model
+Yaml_Path = 'data.yaml'                              # Path to the YAML file containing dataset details
+Use_image = True                                     # Set to True to run on an image, False for video
+Use_video = False                                    # Set to True to run on a video
+Image_Path = r'D:\Object-Detection\example\4.jpg'    # Path to the input image
+Video_Path = r'D:\Object-Detection\example\8.mp4'    # Path to the input video
+Destination_Path = r'outputs'                        # Directory where output images/videos will be saved
+class_names = [                                      # Class names of objects being detected
     "bus_stop",
     "do_not_enter",
     "do_not_stop",
